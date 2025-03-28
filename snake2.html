@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake Game - Main Menu</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+        
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #111;
+            color: white;
+            font-family: 'Press Start 2P', cursive;
+            margin: 0;
+            text-align: center;
+        }
+        h1 {
+            font-size: 40px;
+            text-shadow: 2px 2px 5px limegreen;
+        }
+        .buttons {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+        .menu-item {
+            display: inline-block;
+            padding: 15px 40px;
+            font-size: 18px;
+            text-decoration: none;
+            text-transform: uppercase;
+            color: white;
+            background: linear-gradient(45deg, limegreen, green);
+            border-radius: 10px;
+            transition: 0.3s;
+            box-shadow: 0px 5px 10px rgba(0, 255, 0, 0.5);
+        }
+        .menu-item:hover {
+            transform: scale(1.1);
+            box-shadow: 0px 8px 15px rgba(0, 255, 0, 0.8);
+        }
+        .settings {
+            background: linear-gradient(45deg, orange, darkorange);
+            box-shadow: 0px 5px 10px rgba(255, 165, 0, 0.5);
+        }
+        .settings:hover {
+            box-shadow: 0px 8px 15px rgba(255, 165, 0, 0.8);
+        }
+    </style>
+</head>
+<body>
+    <h1>Snake Game</h1>
+    <div class="buttons">
+        <a href="C:\Users\SELVA P\Documents\portfolio\.vscode\snake1.html" class="menu-item">Play</a>
+        <a href="C:\Users\SELVA P\Documents\portfolio\.vscode\snake1.html" class="menu-item">New Game</a>
+        <a href="settings.html" class="menu-item settings">Settings</a>
+    </div>
+</body>
+</html>
